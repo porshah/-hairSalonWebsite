@@ -1,0 +1,108 @@
+/* Phone */
+@media (max-width:576px) {
+	body {
+	display:flex;
+	flex-direction: column;
+}
+ul{
+	display: flex;
+	flex-direction: column;
+}
+}
+
+body {
+    background: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    min-width: 960px;
+}
+
+ul {
+    list-style-type: none;
+	margin: 15px;
+	padding: 20px 0 0;
+    font-size: 130%;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.container { 
+   padding: 15em;
+   margin: 5em;
+}
+
+li {
+    display: inline;
+    margin: 50px;
+    padding: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+p {
+    color: #252525;
+    line-height: 24px;
+    margin: 4em;
+    padding: 0;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+.pic{
+  border-right: solid 2px black;
+}
+.txt{
+   
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    background: black;
+    display: inline-block;
+    padding: 15px 28px 12px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button :hover {
+    background-color: blanchedalmond;
+}
+
+button {
+    background: black;
+    display: inline-block;
+    padding: 10px 15px 10px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    font-size: medium; 
+}
